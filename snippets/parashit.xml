@@ -8,15 +8,26 @@
   </project>
   <project path="external/DUtils" name="Para-SHIT/android_external_DUtils" remote="parashit" />
   <project path="frameworks/base" name="Para-SHIT/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="parashit" />
+  <project path="frameworks/native" name="Para-SHIT/android_frameworks_native" groups="pdk" remote="parashit" />
   <project path="packages/apps/CMParts" name="Para-SHIT/android_packages_apps_CMParts" remote="parashit" />
+  <project path="packages/apps/Contacts" name="Para-SHIT/android_packages_apps_Contacts" groups="pdk-fs" remote="parashit" />
+  <project path="packages/apps/ContactsCommon" name="Para-SHIT/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="parashit" />
+  <project path="packages/apps/Dialer" name="Para-SHIT/android_packages_apps_Dialer" groups="pdk-fs" remote="parashit" />
   <project path="packages/apps/DUI" name="Para-SHIT/android_packages_apps_DUI" remote="parashit" />
+  <project path="packages/apps/ExactCalculator" name="Para-SHIT/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="parashit" />
   <project path="packages/apps/OmniStyle" name="Para-SHIT/android_packages_apps_OmniStyle" remote="parashit" />
   <project path="packages/apps/OmniSwitch" name="Para-SHIT/android_packages_apps_OmniSwitch" remote="parashit" />
+  <project path="packages/apps/PackageInstaller" name="Para-SHIT/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="parashit" />
   <project path="packages/apps/ParaSHIT" name="Para-SHIT/android_packages_apps_ParaSHIT" remote="parashit" />
+  <project path="packages/apps/PhoneCommon" name="Para-SHIT/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="parashit" />
   <project path="packages/apps/Settings" name="Para-SHIT/android_packages_apps_Settings" groups="pdk-fs" remote="parashit" />
   <project path="packages/apps/SlimRecents" name="Para-SHIT/android_packages_apps_SlimRecents" remote="parashit" />
   <project path="system/core" name="Para-SHIT/android_system_core" remote="parashit" />
+  <project path="system/sepolicy" name="Para-SHIT/android_system_sepolicy" groups="pdk" remote="parashit" />
   <project path="vendor/cm" name="Para-SHIT/android_vendor_parashit" remote="parashit" />
   <project path="vendor/cmsdk" name="Para-SHIT/cm_platform_sdk" remote="parashit" />
+
+  <!-- Track ThemeInterfacer -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
 </manifest>
