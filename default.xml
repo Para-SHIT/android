@@ -13,6 +13,12 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r36" />
 
+  <remote  name="parashit"
+           fetch="https://github.com/"
+           revision="refs/heads/shit-n"
+           sync-c="true"
+           sync-j="4" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
@@ -508,5 +514,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm.xml" />
+  <include name="snippets/parashit.xml" />
 
 </manifest>
