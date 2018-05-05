@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ParaSHIT additions -->
+  <project path="android" name="Para-SHIT/android" remote="parashit" />
+  <project path="build" name="Para-SHIT/android_build" groups="pdk" remote="parashit">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="external/DUtils" name="Para-SHIT/android_external_DUtils" remote="parashit" />
+  <project path="frameworks/base" name="Para-SHIT/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="parashit" />
+  <project path="packages/apps/CMParts" name="Para-SHIT/android_packages_apps_CMParts" remote="parashit" />
+  <project path="packages/apps/DUI" name="Para-SHIT/android_packages_apps_DUI" remote="parashit" />
+  <project path="packages/apps/OmniStyle" name="Para-SHIT/android_packages_apps_OmniStyle" remote="parashit" />
+  <project path="packages/apps/OmniSwitch" name="Para-SHIT/android_packages_apps_OmniSwitch" remote="parashit" />
+  <project path="packages/apps/ParaSHIT" name="Para-SHIT/android_packages_apps_ParaSHIT" remote="parashit" />
+  <project path="packages/apps/Settings" name="Para-SHIT/android_packages_apps_Settings" groups="pdk-fs" remote="parashit" />
+  <project path="packages/apps/SlimRecents" name="Para-SHIT/android_packages_apps_SlimRecents" remote="parashit" />
+  <project path="system/core" name="Para-SHIT/android_system_core" remote="parashit" />
+  <project path="vendor/cm" name="Para-SHIT/android_vendor_parashit" remote="parashit" />
+  <project path="vendor/cmsdk" name="Para-SHIT/cm_platform_sdk" remote="parashit" />
+
 </manifest>
